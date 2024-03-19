@@ -1,0 +1,28 @@
+[
+    {
+        "title": "Statistika 1",
+        "page" : [
+            {
+                "title" : "Distribusi Frekuensi",
+                "path" : "distribusi-frekuensi"
+            },
+            {
+                "title" : "Ukuran Letak Data",
+                "path" : "ukuran-letak-data"
+            },
+            {
+                "title" : "Penyebaran Data",
+                "path" : "penyebaran-data"
+            }
+        ]
+    },
+    {
+        "title": "Statistika 2",
+        "page" : [
+            {
+                "title" : "Korelasi Produk Moment Person",
+                "path" : "korelasi-produk-moment-person"
+            }
+        ]
+    }
+]

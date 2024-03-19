@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+    @apply max-w-6xl mx-auto
+}
+
+.input {
+    @apply px-3 py-2 bg-white border border-slate-300 shadow-md focus:border focus:border-indigo-500 focus:outline-none focus:ring focus:ring-indigo-200 transition duration-300
+}
+
+.button {
+    @apply px-4 py-2 bg-indigo-500 text-white hover:bg-indigo-400 font-semibold text-sm rounded-md
+}
+
+.info {
+    @apply font-semibold border-b border-b-slate-300 mt-4 text-2xl py-3 mt-8
+}
+
+.table-container {
+    @apply flex flex-col overflow-auto
+}
+
+.table-data > tbody > tr {
+    @apply even:bg-indigo-300/20 odd:bg-white/30
+}
+
+.table-data > tbody > tr > td {
+    @apply py-4 px-4 whitespace-nowrap
+}
