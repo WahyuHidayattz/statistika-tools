@@ -1,6 +1,6 @@
 [
     {
-        "title": "Statistika 1",
+        "title": "Statistika I",
         "page" : [
             {
                 "title" : "Distribusi Frekuensi",
@@ -17,11 +17,19 @@
         ]
     },
     {
-        "title": "Statistika 2",
+        "title": "Statistika II",
         "page" : [
             {
                 "title" : "Korelasi Produk Moment Person",
                 "path" : "korelasi-produk-moment-person"
+            },
+            {
+                "title" : "Analisis Korelasi Rank Spearman",
+                "path" : "analisis-korelasi-rank-spearman"
+            },
+            {
+                "title": "Analisa Ragam / ANOVA",
+                "path": "analisis-ragam-anova"
             }
         ]
     }

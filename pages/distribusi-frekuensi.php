@@ -47,15 +47,15 @@ if (isset($_POST['submit'])) {
 ?>
 
 <!-- fron end -->
-<div class="flex flex-col gap-8">
-    <form action="" method="post" class="flex flex-col gap-6 p-0 m-0">
-        <div class="flex flex-col gap-2">
+<div class="flex flex-col gap-6">
+    <form action="" method="post" class="flex flex-col gap-4 p-0 m-0">
+        <div class="flex flex-col gap-1">
             <label for="input_deret">Deret Nomor</label>
-            <textarea class="input" name="input_deret" id="input_deret" rows="2" placeholder="Masukan Deret Nomor, Pisahkan dengan koma, Contoh : 1,4,6,7,8,... dst"><?= $input_deret; ?></textarea>
+            <textarea class="input" name="input_deret" id="input_deret" rows="2" placeholder="Masukan Data, Pisahkan dengan Koma"><?= $input_deret; ?></textarea>
         </div>
-        <div class="flex flex-col gap-2">
+        <div class="flex flex-col gap-1">
             <label for="input_interval">Interval</label>
-            <input type="text" id="input_interval" name="input_interval" class="input" placeholder="Masukan Interval (Angka)" value="<?= $input_interval; ?>">
+            <input type="text" id="input_interval" name="input_interval" class="input" placeholder="Input angka" value="<?= $input_interval; ?>">
         </div>
         <div class="flex flex-row items-center justify-end gap-4">
             <button class="button" type="submit" name="submit">Hitung</button>

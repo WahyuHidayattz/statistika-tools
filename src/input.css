@@ -3,15 +3,19 @@
 @tailwind utilities;
 
 .container {
-    @apply max-w-6xl mx-auto
+    @apply max-w-5xl mx-auto
 }
 
 .input {
-    @apply px-3 py-2 bg-white border border-slate-300 shadow-md focus:border focus:border-indigo-500 focus:outline-none focus:ring focus:ring-indigo-200 transition duration-300
+    @apply bg-gray-100 border-b-2 border-b-gray-200 rounded-t-md px-3 py-2 text-sm outline-none focus:border-b-2 focus:border-b-blue-500 transition duration-300
 }
 
 .button {
-    @apply px-4 py-2 bg-indigo-500 text-white hover:bg-indigo-400 font-semibold text-sm rounded-md
+    @apply px-4 py-2 bg-blue-500 text-white hover:bg-blue-400 transition duration-300 shadow-md font-semibold text-sm rounded-sm
+}
+
+.card {
+    @apply bg-white border border-slate-200 rounded-md shadow-md
 }
 
 .info {

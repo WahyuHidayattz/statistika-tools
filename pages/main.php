@@ -1,10 +1,10 @@
-<div class="flex flex-col justify-center gap-8 h-full flex-1">
+<div class="flex flex-col justify-center flex-1 h-full gap-8">
     <?php foreach ($menu as $data) : ?>
         <div class="flex flex-col gap-4">
-            <span class="text-black text-lg font-semibold"><?= $data->title; ?></span>
-            <div class="flex flex-col gap-6 md:grid md:grid-cols-2 lg:grid-cols-3">
+            <span class="text-lg font-semibold text-black"><?= $data->title; ?></span>
+            <div class="flex flex-col gap-4">
                 <?php foreach ($data->page as $p) : ?>
-                    <a href="?page=<?= $p->path; ?>" class="rounded-md bg-white p-6 shadow-md shadow-black/10 transition duration-300 hover:shadow-xl"><?= $p->title; ?></a>
+                    <a href="?page=<?= $p->path; ?>" class="px-4 py-4 transition duration-300 bg-white border rounded-md shadow-md border-slate-200 hover:text-black hover:shadow-lg"><?= $p->title; ?></a>
                 <?php endforeach; ?>
             </div>
         </div>

@@ -56,15 +56,15 @@ if (isset($_POST['submit'])) {
 ?>
 
 <!-- fron end -->
-<div class="flex flex-col gap-8">
-    <form action="" method="post" class="flex flex-col gap-6 p-0 m-0">
-        <div class="flex flex-col gap-2">
+<div class="flex flex-col gap-6">
+    <form action="" method="post" class="flex flex-col gap-4 p-0 m-0">
+        <div class="flex flex-col gap-1">
             <label for="input_x">Data X</label>
-            <input type="text" class="input" name="input_x" id="input_x" rows="2" placeholder="Masukan Deret Angka, Pisahkan dengan koma, Contoh : 1,4,6,7,8,... dst" value="<?= $input_x; ?>" />
+            <input type="text" class="input" name="input_x" id="input_x" rows="2" placeholder="Masukan Data, Pisahkan dengan Koma" value="<?= $input_x; ?>" />
         </div>
-        <div class="flex flex-col gap-2">
+        <div class="flex flex-col gap-1">
             <label for="input_y">Data Y</label>
-            <input type="text" class="input" name="input_y" id="input_y" rows="2" placeholder="Masukan Deret Angka, Pisahkan dengan koma, Contoh : 1,4,6,7,8,... dst" value="<?= $input_y; ?>" />
+            <input type="text" class="input" name="input_y" id="input_y" rows="2" placeholder="Masukan Data, Pisahkan dengan Koma" value="<?= $input_y; ?>" />
         </div>
         <div class="flex flex-row items-center justify-end gap-4">
             <button class="button" type="submit" name="submit">Hitung</button>
@@ -82,8 +82,8 @@ if (isset($_POST['submit'])) {
                     <h2 class="info">Table Data</h2>
                     <div class="table-container">
                         <table class="border border-slate-300">
-                            <thead class="text-white bg-indigo-500">
-                                <tr class="*:px-2 *:py-2 *:border *:border-indigo-400 *:text-center">
+                            <thead class="text-white bg-blue-500">
+                                <tr class="*:px-2 *:py-2 *:border *:border-blue-400 *:text-center">
                                     <td>NO</td>
                                     <td>X</td>
                                     <td>Y</td>
@@ -102,7 +102,7 @@ if (isset($_POST['submit'])) {
                                         <?php endforeach; ?>
                                     </tr>
                                 <?php endforeach; ?>
-                                <tr class="*:px-2 *:py-2 *:border *:border-indigo-400 *:text-center bg-indigo-500 text-white">
+                                <tr class="*:px-2 *:py-2 *:border *:border-blue-400 *:text-center bg-blue-500 text-white">
                                     <td>Total</td>
                                     <?php foreach ($totals as $tot) : ?>
                                         <td><?= $tot; ?></td>
