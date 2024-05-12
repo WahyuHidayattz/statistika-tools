@@ -33,3 +33,19 @@
 .table-data > tbody > tr > td {
     @apply py-4 px-4 whitespace-nowrap
 }
+
+.tabel {
+    @apply border border-slate-300
+}
+
+.tabel > thead, .tabel > tfoot {
+    @apply text-white bg-blue-500
+}
+
+.tabel > thead > tr, .tabel > tfoot > tr {
+    @apply *:px-2 *:py-2 *:border *:border-blue-400 *:text-center
+}
+
+.tabel > tbody > tr {
+    @apply *:px-2 *:py-2 *:border *:border-slate-200 *:bg-white *:text-center
+}
