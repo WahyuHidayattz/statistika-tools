@@ -1,6 +1,6 @@
 # Statistika Tools
 
-Ini adalah sebuah tools untuk menghitung soal statistika, sengaja saya buat karena saya tidak pintar menghitung jadi ketika UAS atau UTS tinggal pake tools ini dan sat set sat set jadi.
+Ini adalah sebuah tools untuk menghitung soal statistika, sengaja saya buat karena saya tidak pintar menghitung jadi tools ini bisa mempermudah menghitung soal statistikanya.
 
 Tools ini berbasis WEB dibuat menggunakan bahasa pemerograman PHP, jika ingin cloning langsung clone saja, tidak ada login-loginan dan tidak pake database databasean.
 

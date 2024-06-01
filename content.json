@@ -30,6 +30,10 @@
             {
                 "title": "Analisa Ragam / ANOVA",
                 "path": "analisis-ragam-anova"
+            },
+            {
+                "title": "Korelasi Ganda",
+                "path": "korelasi-ganda"
             }
         ]
     }
